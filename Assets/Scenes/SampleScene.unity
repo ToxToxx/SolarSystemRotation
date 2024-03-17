@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 50
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &19063679
@@ -308,9 +308,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 4
+  _speed: -50
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
+--- !u!4 &19063684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5bc49bf440c7b6f438104d344e0d4f6e, type: 3}
+  m_PrefabInstance: {fileID: 19063679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
+  _speed: 50
   _rotationCenter: {fileID: 1818751170}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
@@ -686,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 50
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289355976
@@ -782,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
+  _speed: 50
   _rotationCenter: {fileID: 1818751170}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1362031530
@@ -878,7 +883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: -50
   _rotationCenter: {fileID: 1715418519}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1369541003
@@ -974,8 +979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 15
-  _rotationCenter: {fileID: 1653092105}
+  _speed: -100
+  _rotationCenter: {fileID: 19063684}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1653092104
 PrefabInstance:
@@ -1075,7 +1080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 15
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1715418518
@@ -1176,7 +1181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 12
+  _speed: -25
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1818751169
@@ -1277,7 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 20
+  _speed: 40
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1894072878
@@ -1373,7 +1378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 50
   _rotationCenter: {fileID: 1653092105}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &2139812154
@@ -1469,7 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422b1af892d908f4e8571586b56780d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: -50
   _rotationCenter: {fileID: 1715418519}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
